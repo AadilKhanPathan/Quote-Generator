@@ -42,7 +42,7 @@ function RandomQuotes() {
 
   return (
     <div className="container">
-      <div className="quote">{isLoading ? "fetching wisdom" : quote.text}</div>
+      <div className="quote">{isLoading ? "...fetching wisdom" : quote.text}</div>
       <div className="bottom">
         <div className="nameOfAuthor"> {isLoading ? "..." : `- ${quote.author}`}</div>
         <div className="icons">
